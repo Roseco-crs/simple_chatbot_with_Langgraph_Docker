@@ -1,0 +1,29 @@
+# 1. Python Junk
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 2. Local Virtual Environments
+# (Since the container builds its own environment, we don't want yours!)
+.venv/
+venv/
+env/
+
+# 3. UV Specific
+# (We want Docker to use its own cache, not your local one)
+.uv/
+
+# 4. Git and IDEs
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# 5. OS Metadata
+.DS_Store
+Thumbs.db
+
+# 6. Sensitive Info
+# (Even if you don't use Postgres, you might have API keys here later)
+.env

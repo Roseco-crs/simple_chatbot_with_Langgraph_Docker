@@ -9,5 +9,6 @@ dependencies = [
     "langchain-groq>=1.1.1",
     "langgraph>=1.0.6",
     "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
     "streamlit>=1.53.0",
 ]
