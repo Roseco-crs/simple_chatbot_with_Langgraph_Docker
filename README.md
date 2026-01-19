@@ -19,4 +19,4 @@ A simple, robust chatbot built with **LangGraph** and **LangChain**, fully conta
    git clone [https://github.com/Roseco-crs/simple_chatbot_with_Langgraph_Docker.git](https://github.com/Roseco-crs/simple_chatbot_with_Langgraph_Docker)
    cd imple_chatbot_with_Langgraph_Docker
    docker build -t app.py .
-   docker run -p 8501:7860 app.py
+   docker run --env-file .env -p 8501:7860 app.py
